@@ -1,0 +1,37 @@
+{
+  "name": "@geoffcodesthings/tailwind-md-base",
+  "version": "1.0.0",
+  "description": "A slightly opinionated collection of base markdown styles for Tailwind CSS.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeoffSelby/tailwind-md-base.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "markdown"
+  ],
+  "author": "Geoff Selby <geoff@geoffcodesthings.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeoffSelby/tailwind-md-base/issues"
+  },
+  "homepage": "https://github.com/GeoffSelby/tailwind-md-base#readme",
+  "peerDependencies": {
+    "tailwindcss": "^1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "jest": "^24.9.0",
+    "postcss": "^7.0.25",
+    "tailwindcss": "^1.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
