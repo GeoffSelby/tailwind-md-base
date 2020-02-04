@@ -1,0 +1,147 @@
+h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #4299e1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3182ce;
+  text-decoration: none;
+}
+
+blockquote {
+  border-color: #e2e8f0;
+  border-left-width: 4px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  color: #2d3748;
+  font-size: 1.125rem;
+}
+
+code {
+  background-color: #e2e8f0;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+hr {
+  border-bottom-width: 1px;
+  border-color: #e2e8f0;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 9999px;
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+ol {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+table {
+  padding: 0;
+}
+
+table tr {
+  border-top-width: 1px;
+  border-color: #4a5568;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f7fafc;
+}
+
+table tr th {
+  font-weight: 700;
+  border-width: 1px;
+  border-color: #4a5568;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+table tr th:first-child {
+  margin-top: 0;
+}
+
+table tr th:last-child {
+  margin-bottom: 0;
+}
+
+table tr td {
+  border-width: 1px;
+  border-color: #4a5568;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+table tr td:first-child {
+  margin-top: 0;
+}
+
+table tr td:last-child {
+  margin-bottom: 0;
+}
