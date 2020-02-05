@@ -1,6 +1,6 @@
-const tailwindRebase = require('./src/index');
+const tailwindMdBase = require('./src/index');
 
 module.exports = {
   corePlugins: false,
-  plugins: [tailwindRebase()],
+  plugins: [tailwindMdBase()],
 };

@@ -15,7 +15,7 @@ module.exports = () => ({ addBase, theme }) => {
   };
 
   const registerComponents = () => {
-    const options = resolveOptions(theme('rebase'));
+    const options = resolveOptions(theme('markdownBase'));
     const wrapper = options.wrapperClass;
     const elems = Object.keys(options).reduce((object, key) => {
       if (key !== 'wrapperClass') {

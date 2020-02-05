@@ -30,7 +30,7 @@ test('it generates all classes with a custom wrapper class', () => {
     tailwindcss({
       corePlugins: false,
       theme: {
-        rebase: {
+        markdownBase: {
           wrapperClass: 'content',
         },
       },
@@ -56,7 +56,7 @@ test('it generates all classes without a wrapper class', () => {
     tailwindcss({
       corePlugins: false,
       theme: {
-        rebase: {
+        markdownBase: {
           wrapperClass: null,
         },
       },
@@ -82,7 +82,7 @@ test('it generates all the classes with custom config', () => {
     tailwindcss({
       corePlugins: false,
       theme: {
-        rebase: {
+        markdownBase: {
           wrapperClass: 'markdown', // overwrite from previous test. don't know why it is still in memory.
           h1: {
             fontSize: '4rem',
@@ -114,7 +114,7 @@ test('it generates all the classes with additional elements', () => {
     tailwindcss({
       corePlugins: false,
       theme: {
-        rebase: {
+        markdownBase: {
           img: {
             width: '100%',
           },
