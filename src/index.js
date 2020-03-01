@@ -7,7 +7,7 @@ const resolveOptions = userOptions => {
 
 module.exports = () => ({ addBase, theme }) => {
   const addBaseStyles = (wrapperClass, elem, values) => {
-    const wrapper = wrapperClass ? `.${wrapperClass} > ` : '';
+    const wrapper = wrapperClass ? `.${wrapperClass} ` : '';
 
     addBase({
       [`${wrapper}${elem}`]: values,
