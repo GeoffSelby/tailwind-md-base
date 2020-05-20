@@ -156,12 +156,18 @@ module.exports = {
   },
 
   ol: {
+    listStyleType: defaultTheme.listStyleType.decimal,
+    listStylePosition: 'inside',
     marginTop: defaultTheme.spacing[4],
     marginBottom: defaultTheme.spacing[4],
   },
 
   table: {
+    width: '100%',
+    color: defaultTheme.colors.gray[900],
+    marginBottom: '1rem',
     padding: 0,
+    borderCollapse: 'collapse',
     tr: {
       borderTopWidth: defaultTheme.borderWidth.default,
       borderColor: defaultTheme.colors.gray[700],
