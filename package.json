@@ -4,6 +4,11 @@
   "description": "A slightly opinionated collection of base markdown styles for Tailwind CSS.",
   "main": "src/index.js",
   "scripts": {
+    "dev": "next dev docs",
+    "build": "next build docs",
+    "export": "next export docs",
+    "deploy": "npm run build && npm run export",
+    "start": "next start docs",
     "test": "jest"
   },
   "repository": {
@@ -25,10 +30,26 @@
     "tailwindcss": "^1.0"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "@mdx-js/loader": "^1.6.3",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-mdx": "^1.2.0",
+    "autoprefixer": "^9.8.0",
+    "clean-css": "^4.2.3",
+    "cssnano": "^4.1.10",
+    "dedent": "^0.7.0",
     "eslint": "^6.7.2",
     "eslint-config-airbnb": "^18.0.1",
+    "highlight.js": "^10.0.3",
     "jest": "^24.9.0",
+    "next": "^9.4.1",
     "postcss": "^7.0.25",
+    "postcss-custom-properties": "^9.1.1",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-highlight": "^0.12.0",
     "tailwindcss": "^1.1.4"
   },
   "dependencies": {
