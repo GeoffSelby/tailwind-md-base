@@ -93,12 +93,18 @@
 }
 
 .content ol {
+  list-style-type: decimal;
+  list-style-position: inside;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 .content table {
+  width: 100%;
+  color: #1a202c;
+  margin-bottom: 1rem;
   padding: 0;
+  border-collapse: collapse;
 }
 
 .content table tr {
