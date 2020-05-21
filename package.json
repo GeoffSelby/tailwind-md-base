@@ -1,6 +1,6 @@
 {
   "name": "@geoffcodesthings/tailwind-md-base",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A slightly opinionated collection of base markdown styles for Tailwind CSS.",
   "main": "src/index.js",
   "scripts": {
